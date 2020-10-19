@@ -1,4 +1,4 @@
-# Talos iOS Events App
+# Talos Events - iOS
 
 
 ## Developed by:
