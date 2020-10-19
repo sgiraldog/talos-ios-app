@@ -2,5 +2,5 @@
 
 
 ## Developed by:
-### Sebastián Giraldo Gómez
-### Alejandro Cano Múnera
+- Sebastián Giraldo Gómez
+- Alejandro Cano Múnera
