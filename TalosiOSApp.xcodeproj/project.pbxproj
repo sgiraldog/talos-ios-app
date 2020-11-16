@@ -3,27 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		500DBF3C253DDC9A001EAD46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500DBF3B253DDC9A001EAD46 /* AppDelegate.swift */; };
-		500DBF3E253DDC9A001EAD46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500DBF3D253DDC9A001EAD46 /* SceneDelegate.swift */; };
 		500DBF40253DDC9A001EAD46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500DBF3F253DDC9A001EAD46 /* ViewController.swift */; };
 		500DBF43253DDC9A001EAD46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 500DBF41253DDC9A001EAD46 /* Main.storyboard */; };
 		500DBF45253DDC9A001EAD46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 500DBF44253DDC9A001EAD46 /* Assets.xcassets */; };
 		500DBF48253DDC9A001EAD46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 500DBF46253DDC9A001EAD46 /* LaunchScreen.storyboard */; };
+		50B7C86C2562EB0A00F258B6 /* EventsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B7C86B2562EB0A00F258B6 /* EventsListViewController.swift */; };
+		50B7C8762562F75900F258B6 /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B7C8752562F75900F258B6 /* EventTableViewCell.swift */; };
+		50B7C8862562FADC00F258B6 /* EventModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B7C8852562FADC00F258B6 /* EventModels.swift */; };
+		50B7C8892562FC6B00F258B6 /* EventServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B7C8882562FC6B00F258B6 /* EventServices.swift */; };
+		50B7C88D2562FFEC00F258B6 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B7C88C2562FFEC00F258B6 /* Utils.swift */; };
+		50B7C8912563009300F258B6 /* IBDesignables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B7C8902563009300F258B6 /* IBDesignables.swift */; };
+		50B7C894256304B500F258B6 /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B7C893256304B500F258B6 /* EventViewController.swift */; };
+		8F765CE262F9C136CAE292B5 /* Pods_TalosiOSApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11E0524878D264063FA2DCD4 /* Pods_TalosiOSApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11E0524878D264063FA2DCD4 /* Pods_TalosiOSApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TalosiOSApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B38928359A2A7AD145D3580 /* Pods-TalosiOSApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalosiOSApp.release.xcconfig"; path = "Target Support Files/Pods-TalosiOSApp/Pods-TalosiOSApp.release.xcconfig"; sourceTree = "<group>"; };
 		500DBF38253DDC9A001EAD46 /* TalosiOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TalosiOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		500DBF3B253DDC9A001EAD46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		500DBF3D253DDC9A001EAD46 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		500DBF3F253DDC9A001EAD46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		500DBF42253DDC9A001EAD46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		500DBF44253DDC9A001EAD46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		500DBF47253DDC9A001EAD46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		500DBF49253DDC9A001EAD46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50B7C86B2562EB0A00F258B6 /* EventsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsListViewController.swift; sourceTree = "<group>"; };
+		50B7C8752562F75900F258B6 /* EventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
+		50B7C8852562FADC00F258B6 /* EventModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventModels.swift; sourceTree = "<group>"; };
+		50B7C8882562FC6B00F258B6 /* EventServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventServices.swift; sourceTree = "<group>"; };
+		50B7C88C2562FFEC00F258B6 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		50B7C8902563009300F258B6 /* IBDesignables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBDesignables.swift; sourceTree = "<group>"; };
+		50B7C893256304B500F258B6 /* EventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
+		9F74F1AAA1255C561F3718E4 /* Pods-TalosiOSApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalosiOSApp.debug.xcconfig"; path = "Target Support Files/Pods-TalosiOSApp/Pods-TalosiOSApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F765CE262F9C136CAE292B5 /* Pods_TalosiOSApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		062E460381BC7A8F547AAF22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11E0524878D264063FA2DCD4 /* Pods_TalosiOSApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		339E579DA63742BF963A99E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F74F1AAA1255C561F3718E4 /* Pods-TalosiOSApp.debug.xcconfig */,
+				3B38928359A2A7AD145D3580 /* Pods-TalosiOSApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		500DBF2F253DDC9A001EAD46 = {
 			isa = PBXGroup;
 			children = (
 				500DBF3A253DDC9A001EAD46 /* TalosiOSApp */,
 				500DBF39253DDC9A001EAD46 /* Products */,
+				339E579DA63742BF963A99E1 /* Pods */,
+				062E460381BC7A8F547AAF22 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +92,53 @@
 		500DBF3A253DDC9A001EAD46 /* TalosiOSApp */ = {
 			isa = PBXGroup;
 			children = (
+				50B7C88B2562FFDE00F258B6 /* Utils */,
+				50B7C8822562FABD00F258B6 /* SDK */,
 				500DBF3B253DDC9A001EAD46 /* AppDelegate.swift */,
-				500DBF3D253DDC9A001EAD46 /* SceneDelegate.swift */,
 				500DBF3F253DDC9A001EAD46 /* ViewController.swift */,
 				500DBF41253DDC9A001EAD46 /* Main.storyboard */,
 				500DBF44253DDC9A001EAD46 /* Assets.xcassets */,
 				500DBF46253DDC9A001EAD46 /* LaunchScreen.storyboard */,
 				500DBF49253DDC9A001EAD46 /* Info.plist */,
+				50B7C86B2562EB0A00F258B6 /* EventsListViewController.swift */,
+				50B7C8752562F75900F258B6 /* EventTableViewCell.swift */,
+				50B7C893256304B500F258B6 /* EventViewController.swift */,
 			);
 			path = TalosiOSApp;
+			sourceTree = "<group>";
+		};
+		50B7C8822562FABD00F258B6 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				50B7C8842562FAC800F258B6 /* Model */,
+				50B7C8832562FAC300F258B6 /* Service */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		50B7C8832562FAC300F258B6 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				50B7C8882562FC6B00F258B6 /* EventServices.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		50B7C8842562FAC800F258B6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				50B7C8852562FADC00F258B6 /* EventModels.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		50B7C88B2562FFDE00F258B6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				50B7C88C2562FFEC00F258B6 /* Utils.swift */,
+				50B7C8902563009300F258B6 /* IBDesignables.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +148,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 500DBF4C253DDC9A001EAD46 /* Build configuration list for PBXNativeTarget "TalosiOSApp" */;
 			buildPhases = (
+				7FAD911B452DC65978115F6E /* [CP] Check Pods Manifest.lock */,
 				500DBF34253DDC9A001EAD46 /* Sources */,
 				500DBF35253DDC9A001EAD46 /* Frameworks */,
 				500DBF36253DDC9A001EAD46 /* Resources */,
+				CC573C162053CE7D6C7FF763 /* [CP] Embed Pods Frameworks */,
+				1ED75851DA896D71FED754A4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,14 +209,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1ED75851DA896D71FED754A4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TalosiOSApp/Pods-TalosiOSApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TalosiOSApp/Pods-TalosiOSApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TalosiOSApp/Pods-TalosiOSApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FAD911B452DC65978115F6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TalosiOSApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC573C162053CE7D6C7FF763 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TalosiOSApp/Pods-TalosiOSApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TalosiOSApp/Pods-TalosiOSApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TalosiOSApp/Pods-TalosiOSApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		500DBF34253DDC9A001EAD46 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50B7C8892562FC6B00F258B6 /* EventServices.swift in Sources */,
+				50B7C8762562F75900F258B6 /* EventTableViewCell.swift in Sources */,
+				50B7C8912563009300F258B6 /* IBDesignables.swift in Sources */,
 				500DBF40253DDC9A001EAD46 /* ViewController.swift in Sources */,
+				50B7C88D2562FFEC00F258B6 /* Utils.swift in Sources */,
+				50B7C894256304B500F258B6 /* EventViewController.swift in Sources */,
+				50B7C8862562FADC00F258B6 /* EventModels.swift in Sources */,
+				50B7C86C2562EB0A00F258B6 /* EventsListViewController.swift in Sources */,
 				500DBF3C253DDC9A001EAD46 /* AppDelegate.swift in Sources */,
-				500DBF3E253DDC9A001EAD46 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,12 +425,14 @@
 		};
 		500DBF4D253DDC9A001EAD46 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F74F1AAA1255C561F3718E4 /* Pods-TalosiOSApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G9E3H9SP5A;
 				INFOPLIST_FILE = TalosiOSApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,12 +446,14 @@
 		};
 		500DBF4E253DDC9A001EAD46 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B38928359A2A7AD145D3580 /* Pods-TalosiOSApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G9E3H9SP5A;
 				INFOPLIST_FILE = TalosiOSApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
